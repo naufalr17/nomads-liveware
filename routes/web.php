@@ -1,8 +1,9 @@
 <?php
 
-use App\Http\Controllers\CheckoutController;
-use App\Http\Controllers\DetailController;
-use App\Http\Controllers\HomeController;
+use App\Http\Controllers\Client\CheckoutController;
+use App\Http\Controllers\Client\DetailController;
+use App\Http\Controllers\Client\HomeController;
+
 use Illuminate\Support\Facades\Route;
 
 /*
