@@ -1,4 +1,4 @@
-@extends('pages-layouts.app')
+@extends('pages.layouts.app')
 
 @section('content')
 
@@ -165,7 +165,7 @@
           <a href="#" class="btn btn-need-help px-4 mt-4 mx-1">
             I Need Help
           </a>
-          <a href="{{ route('register') }}" class="btn btn-get-started px-4 mt-4 mx-1">
+          <a href="{{ route('login') }}" class="btn btn-get-started px-4 mt-4 mx-1">
             Get Started
           </a>
         </div>
